@@ -1,0 +1,17 @@
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: pluscode-deploy
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pluscode
+  template:
+    metadata:
+      labels:
+        app: pluscode
+    spec:
+      containers
+      - name: pluscode-container
+        image: docker.io/wdenniss/pluscode-demo:latest
