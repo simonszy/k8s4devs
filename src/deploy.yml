@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: pluscode-container
-        image: nginx
+        image: docker.io/wdenniss/pluscode-demo:latest
