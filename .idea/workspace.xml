@@ -28,7 +28,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.sourceCode.YAML"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,5 +79,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="corrected 3rd commit" />
     <option name="LAST_COMMIT_MESSAGE" value="corrected 3rd commit" />
+  </component>
+  <component name="YamllintSettings">
+    <option name="binPath" value="yamllint" />
   </component>
 </project>
