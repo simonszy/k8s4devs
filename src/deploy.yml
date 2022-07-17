@@ -12,6 +12,6 @@ spec:
       labels:
         app: pluscode
     spec:
-      containers
+      containers:
       - name: pluscode-container
         image: docker.io/wdenniss/pluscode-demo:latest
