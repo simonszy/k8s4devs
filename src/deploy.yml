@@ -15,3 +15,4 @@ spec:
       containers:
       - name: pluscode-container
         image: server_app:latest
+        imagePullPolicy: Never
