@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pluscode
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pluscode
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: pluscode
+    spec:
+      topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: kubernetes.io/hostname
+          whenUnsatisfiable: ScheduleAnyway
+          labelSelector:
+            matchLabels:
+              app: pluscode
+      containers:
+      - name: pluscode-container
+        image: wdenniss/pluscode-demo:latest
+        resources:
+          requests:
+            cpu: 200m
+            memory: 250Mi
+          limits:
+            cpu: 300m
+            memory: 400Mi

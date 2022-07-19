@@ -4,7 +4,8 @@ metadata:
   name: pluscode-service
 spec:
   selector:
-    app: pluscode
+    name: pluscode
+#     app: pluscode
   ports:
   - port: 80
     targetPort: 80
