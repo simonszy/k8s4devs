@@ -4,6 +4,11 @@ metadata:
   name: pluscode-deploy
 spec:
   replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 1
   selector:
     matchLabels:
       app: pluscode
@@ -16,3 +21,21 @@ spec:
       - name: pluscode-container
         image: server_app:latest
         imagePullPolicy: Never
+        readinessProbe:
+          initialDelaySeconds: 15
+          periodSeconds: 30
+          timeoutSeconds: 2
+          failureThreshold: 1
+          successThreshold: 1
+          httpGet:
+            path: /
+            port: 80
+        livenessProbe:
+          initialDelaySeconds: 30
+          periodSeconds: 30
+          timeoutSeconds: 5
+          failureThreshold: 10
+          successThreshold: 1
+          httpGet:
+            path: /
+            port: 80
