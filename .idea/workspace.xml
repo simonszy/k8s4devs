@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2ce031d-4c40-4af4-9de5-b36f041bd50c" name="Changes" comment="correction for name">
-      <change beforePath="$PROJECT_DIR$/src/ch03/hpa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03/hpa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch03/ingress.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03/ingress.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
