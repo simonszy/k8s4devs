@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: robohash
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: robohash
+  template:
+    metadata:
+      labels:
+        app: robohash
+    spec:
+      containers:
+      - name: robohash-container
+        image: jclement/robohash:latest
+        resources:
+            requests:
+              cpu: 100m
+              memory: 50Mi

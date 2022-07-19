@@ -4,10 +4,14 @@ metadata:
   name: pluscode-ingress
 spec:
   rules:
-  - http:
+   - http:
       paths:
       - path: /
         pathType: Prefix
         backend:
-          serviceName: pluscode-service
-          servicePort: 80
+#           serviceName: pluscode-service
+#           servicePort: 80
+          service:
+            name: pluscode-service
+            port:
+              number: 80
