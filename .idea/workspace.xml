@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2ce031d-4c40-4af4-9de5-b36f041bd50c" name="Changes" comment="correction for name">
-      <change afterPath="$PROJECT_DIR$/src/ch07/hpa.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch03/ingress.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03/ingress.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07/deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07/hpa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07/hpa.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +26,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/simons/myDevWkSpace/k8-files/k8s4devs/src/ch07",
-    "settings.editor.selected.configurable": "preferences.sourceCode.YAML"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/simons/myDevWkSpace/k8-files/k8s4devs/src/ch07&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.YAML&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ch07" />
